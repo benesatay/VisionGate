@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+let baseURL: String = "..."
+
+class ApiManager {
+    
+    static let shared = ApiManager()
+    
+}

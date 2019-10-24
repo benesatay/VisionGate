@@ -10,6 +10,10 @@ import UIKit
 
 class PassedPersonalCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var passedNameLabel: UILabel!
+    @IBOutlet weak var passingTimeLabel: UILabel!
+    @IBOutlet weak var entranceImageView: UIImageView!
+    @IBOutlet weak var passedPersonalImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -8,20 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		4A19DE5A22CC940C007931E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A19DE5922CC940C007931E9 /* AppDelegate.swift */; };
-		4A19DE5C22CC940C007931E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A19DE5B22CC940C007931E9 /* ViewController.swift */; };
 		4A19DE5F22CC940C007931E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A19DE5D22CC940C007931E9 /* Main.storyboard */; };
 		4A19DE6122CC940C007931E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A19DE6022CC940C007931E9 /* Assets.xcassets */; };
 		4A19DE6422CC940C007931E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A19DE6222CC940C007931E9 /* LaunchScreen.storyboard */; };
+		4A19DE7522CC98AC007931E9 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A19DE7422CC98AC007931E9 /* EmployeeModel.swift */; };
+		4A19DE7922CC98D8007931E9 /* EmployeeArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A19DE7822CC98D8007931E9 /* EmployeeArrayViewModel.swift */; };
+		4A51383922DB9FC200D4D025 /* PassedPersonalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51383722DB9FC200D4D025 /* PassedPersonalCollectionViewCell.swift */; };
+		4A51383A22DB9FC200D4D025 /* PassedPersonalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A51383822DB9FC200D4D025 /* PassedPersonalCollectionViewCell.xib */; };
+		4A69875C22CF3B3800325385 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69875A22CF3B3800325385 /* ProfileCollectionViewCell.swift */; };
+		4A69875D22CF3B3800325385 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A69875B22CF3B3800325385 /* ProfileCollectionViewCell.xib */; };
+		4A69876022CF3B5700325385 /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69875E22CF3B5700325385 /* PersonalInformationViewController.swift */; };
+		4A69876122CF3B5700325385 /* PersonalInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A69875F22CF3B5700325385 /* PersonalInformationViewController.xib */; };
+		4A69876622CF3BDD00325385 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69876422CF3BDD00325385 /* MainViewController.swift */; };
+		4A69876722CF3BDD00325385 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A69876522CF3BDD00325385 /* MainViewController.xib */; };
+		4A69876A22CF3C0A00325385 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69876922CF3C0A00325385 /* ApiManager.swift */; };
+		4A69876D22CF46BF00325385 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69876B22CF46BF00325385 /* EmployeesViewController.swift */; };
+		4A69876E22CF46BF00325385 /* EmployeesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A69876C22CF46BF00325385 /* EmployeesViewController.xib */; };
+		4A7DB4DD22D20CBA00C7B4C9 /* NewPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7DB4DB22D20CBA00C7B4C9 /* NewPersonalViewController.swift */; };
+		4A7DB4DE22D20CBA00C7B4C9 /* NewPersonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7DB4DC22D20CBA00C7B4C9 /* NewPersonalViewController.xib */; };
+		4A8AF32622F85A9B003F7BF3 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AF32422F85A9B003F7BF3 /* TakePhotoViewController.swift */; };
+		4A8AF32722F85A9B003F7BF3 /* TakePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AF32522F85A9B003F7BF3 /* TakePhotoViewController.xib */; };
+		4A8AF33322F87D80003F7BF3 /* TakePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AF33122F87D80003F7BF3 /* TakePhotoCollectionViewCell.swift */; };
+		4A8AF33422F87D80003F7BF3 /* TakePhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AF33222F87D80003F7BF3 /* TakePhotoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A19DE5622CC940B007931E9 /* visionGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visionGate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A19DE5922CC940C007931E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A19DE5B22CC940C007931E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A19DE5E22CC940C007931E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4A19DE6022CC940C007931E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A19DE6022CC940C007931E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = visionGate/Assets.xcassets; sourceTree = "<group>"; };
 		4A19DE6322CC940C007931E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A19DE6522CC940C007931E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A19DE7422CC98AC007931E9 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		4A19DE7822CC98D8007931E9 /* EmployeeArrayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeArrayViewModel.swift; sourceTree = "<group>"; };
+		4A51383722DB9FC200D4D025 /* PassedPersonalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassedPersonalCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A51383822DB9FC200D4D025 /* PassedPersonalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PassedPersonalCollectionViewCell.xib; sourceTree = "<group>"; };
+		4A69875A22CF3B3800325385 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A69875B22CF3B3800325385 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
+		4A69875E22CF3B5700325385 /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
+		4A69875F22CF3B5700325385 /* PersonalInformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInformationViewController.xib; sourceTree = "<group>"; };
+		4A69876422CF3BDD00325385 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4A69876522CF3BDD00325385 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4A69876922CF3C0A00325385 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		4A69876B22CF46BF00325385 /* EmployeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		4A69876C22CF46BF00325385 /* EmployeesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeesViewController.xib; sourceTree = "<group>"; };
+		4A7DB4DB22D20CBA00C7B4C9 /* NewPersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonalViewController.swift; sourceTree = "<group>"; };
+		4A7DB4DC22D20CBA00C7B4C9 /* NewPersonalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPersonalViewController.xib; sourceTree = "<group>"; };
+		4A8AF32422F85A9B003F7BF3 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+		4A8AF32522F85A9B003F7BF3 /* TakePhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TakePhotoViewController.xib; sourceTree = "<group>"; };
+		4A8AF33122F87D80003F7BF3 /* TakePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A8AF33222F87D80003F7BF3 /* TakePhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TakePhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4A19DE5822CC940B007931E9 /* visionGate */,
+				4A19DE6022CC940C007931E9 /* Assets.xcassets */,
 				4A19DE5722CC940B007931E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +91,127 @@
 		4A19DE5822CC940B007931E9 /* visionGate */ = {
 			isa = PBXGroup;
 			children = (
+				4A69876822CF3BF700325385 /* ApiManager */,
+				4A19DE6B22CC9799007931E9 /* Model */,
+				4A19DE6C22CC97A2007931E9 /* View */,
+				4A19DE6D22CC97AD007931E9 /* ViewModel */,
 				4A19DE5922CC940C007931E9 /* AppDelegate.swift */,
-				4A19DE5B22CC940C007931E9 /* ViewController.swift */,
-				4A19DE5D22CC940C007931E9 /* Main.storyboard */,
-				4A19DE6022CC940C007931E9 /* Assets.xcassets */,
 				4A19DE6222CC940C007931E9 /* LaunchScreen.storyboard */,
 				4A19DE6522CC940C007931E9 /* Info.plist */,
 			);
 			path = visionGate;
+			sourceTree = "<group>";
+		};
+		4A19DE6B22CC9799007931E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A19DE7422CC98AC007931E9 /* EmployeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A19DE6C22CC97A2007931E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A69875222CF3ABF00325385 /* MainViewController */,
+				4A51383622DB9F8F00D4D025 /* PassedPersonalViewCell */,
+				4A69875522CF3AD700325385 /* ProfileCollectionViewCell */,
+				4A69875122CF3AB300325385 /* PersonalInformationViewController */,
+				4A8AF32322F85A43003F7BF3 /* TakePhotoViewController */,
+				4A8AF32822F87284003F7BF3 /* TakePhotoCollectionViewCell */,
+				4A69875322CF3AC700325385 /* EmployeesViewController */,
+				4A7DB4D822D20C8200C7B4C9 /* NewPersonalViewController */,
+				4A19DE5D22CC940C007931E9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A19DE6D22CC97AD007931E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A19DE7822CC98D8007931E9 /* EmployeeArrayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A51383622DB9F8F00D4D025 /* PassedPersonalViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A51383722DB9FC200D4D025 /* PassedPersonalCollectionViewCell.swift */,
+				4A51383822DB9FC200D4D025 /* PassedPersonalCollectionViewCell.xib */,
+			);
+			path = PassedPersonalViewCell;
+			sourceTree = "<group>";
+		};
+		4A69875122CF3AB300325385 /* PersonalInformationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A69875E22CF3B5700325385 /* PersonalInformationViewController.swift */,
+				4A69875F22CF3B5700325385 /* PersonalInformationViewController.xib */,
+			);
+			path = PersonalInformationViewController;
+			sourceTree = "<group>";
+		};
+		4A69875222CF3ABF00325385 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A69876422CF3BDD00325385 /* MainViewController.swift */,
+				4A69876522CF3BDD00325385 /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		4A69875322CF3AC700325385 /* EmployeesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A69876B22CF46BF00325385 /* EmployeesViewController.swift */,
+				4A69876C22CF46BF00325385 /* EmployeesViewController.xib */,
+			);
+			path = EmployeesViewController;
+			sourceTree = "<group>";
+		};
+		4A69875522CF3AD700325385 /* ProfileCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A69875A22CF3B3800325385 /* ProfileCollectionViewCell.swift */,
+				4A69875B22CF3B3800325385 /* ProfileCollectionViewCell.xib */,
+			);
+			path = ProfileCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4A69876822CF3BF700325385 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A69876922CF3C0A00325385 /* ApiManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		4A7DB4D822D20C8200C7B4C9 /* NewPersonalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A7DB4DB22D20CBA00C7B4C9 /* NewPersonalViewController.swift */,
+				4A7DB4DC22D20CBA00C7B4C9 /* NewPersonalViewController.xib */,
+			);
+			path = NewPersonalViewController;
+			sourceTree = "<group>";
+		};
+		4A8AF32322F85A43003F7BF3 /* TakePhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A8AF32422F85A9B003F7BF3 /* TakePhotoViewController.swift */,
+				4A8AF32522F85A9B003F7BF3 /* TakePhotoViewController.xib */,
+			);
+			path = TakePhotoViewController;
+			sourceTree = "<group>";
+		};
+		4A8AF32822F87284003F7BF3 /* TakePhotoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A8AF33122F87D80003F7BF3 /* TakePhotoCollectionViewCell.swift */,
+				4A8AF33222F87D80003F7BF3 /* TakePhotoCollectionViewCell.xib */,
+			);
+			path = TakePhotoCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +272,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A69876E22CF46BF00325385 /* EmployeesViewController.xib in Resources */,
 				4A19DE6422CC940C007931E9 /* LaunchScreen.storyboard in Resources */,
+				4A8AF32722F85A9B003F7BF3 /* TakePhotoViewController.xib in Resources */,
+				4A69876122CF3B5700325385 /* PersonalInformationViewController.xib in Resources */,
+				4A7DB4DE22D20CBA00C7B4C9 /* NewPersonalViewController.xib in Resources */,
 				4A19DE6122CC940C007931E9 /* Assets.xcassets in Resources */,
+				4A8AF33422F87D80003F7BF3 /* TakePhotoCollectionViewCell.xib in Resources */,
+				4A51383A22DB9FC200D4D025 /* PassedPersonalCollectionViewCell.xib in Resources */,
 				4A19DE5F22CC940C007931E9 /* Main.storyboard in Resources */,
+				4A69876722CF3BDD00325385 /* MainViewController.xib in Resources */,
+				4A69875D22CF3B3800325385 /* ProfileCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A19DE5C22CC940C007931E9 /* ViewController.swift in Sources */,
+				4A69876A22CF3C0A00325385 /* ApiManager.swift in Sources */,
+				4A7DB4DD22D20CBA00C7B4C9 /* NewPersonalViewController.swift in Sources */,
+				4A8AF33322F87D80003F7BF3 /* TakePhotoCollectionViewCell.swift in Sources */,
+				4A69876622CF3BDD00325385 /* MainViewController.swift in Sources */,
+				4A69876D22CF46BF00325385 /* EmployeesViewController.swift in Sources */,
+				4A19DE7522CC98AC007931E9 /* EmployeeModel.swift in Sources */,
+				4A19DE7922CC98D8007931E9 /* EmployeeArrayViewModel.swift in Sources */,
+				4A69876022CF3B5700325385 /* PersonalInformationViewController.swift in Sources */,
+				4A69875C22CF3B3800325385 /* ProfileCollectionViewCell.swift in Sources */,
 				4A19DE5A22CC940C007931E9 /* AppDelegate.swift in Sources */,
+				4A8AF32622F85A9B003F7BF3 /* TakePhotoViewController.swift in Sources */,
+				4A51383922DB9FC200D4D025 /* PassedPersonalCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T87MHHQATK;
+				DEVELOPMENT_TEAM = 88MUA8FE52;
 				INFOPLIST_FILE = visionGate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,8 +469,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T87MHHQATK;
+				DEVELOPMENT_TEAM = 88MUA8FE52;
 				INFOPLIST_FILE = visionGate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
